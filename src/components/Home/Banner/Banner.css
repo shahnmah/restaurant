@@ -1,0 +1,29 @@
+.banner{
+    background-image: url(../../../images/bannerbackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.banner h1{
+    font-weight: 400;
+}
+.banner .search input{
+    outline: none;
+    border: 0;
+    border-radius: 50px !important;
+    position: relative;
+    padding: 10px 15px;
+}
+.search-btn{
+    outline: none;
+    border: 0;
+    border-radius: 50px !important;
+    background-color: #F91944;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    padding: 10px 18px;
+
+}
